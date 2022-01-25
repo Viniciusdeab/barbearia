@@ -7,7 +7,7 @@ h1 {
 }
 
 .caixa {
-    background: #392620;
+    background: linear-gradient(90deg,#392620,#632626,#9D5353,#BF8B67);
     position: relative;
     width: 940px;
     margin: 10px auto;
@@ -50,7 +50,7 @@ nav a:hover {
 
 .sobre {
     text-align: center;
-    background: #392620;
+    background: linear-gradient(90deg,#392620,#632626,#9D5353,#BF8B67);
     color: #FFFFFF;
     padding: 30px;
 }
