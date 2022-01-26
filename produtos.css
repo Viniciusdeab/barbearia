@@ -54,6 +54,7 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #964B00 ;
+    cursor: url("navalha.png"), pointer;
 }
 
 .produtos li:active {
