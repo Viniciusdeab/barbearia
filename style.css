@@ -29,7 +29,7 @@ nav a{
 }
 
 nav a:hover {
-	color: #964B00;
+	color: #3f2409;
 	text-decoration: underline;
     cursor: url("navalha.png"), pointer;
 }
@@ -117,8 +117,30 @@ form label, form legend {
 	padding:  10px 25px;
 	width: 50%;
 	box-shadow: 0 10px 10px rgba(37, 37, 37, 0.19), 0 10px 10px rgba(77, 77, 77, 0.23);
+	border-top:rgba(37, 37, 37, 0.19);
+	border-left:rgba(37, 37, 37, 0.19);	
 }
 
 .checkbox {
 	margin: 20px 0;
+}
+
+.enviar {
+	background: orange;
+	width: 40%;
+	border: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding: 15px 0;
+	box-shadow: 0 10px 10px rgba(37, 37, 37, 0.19);
+	transition: 1s, background;
+	border-radius: 5px;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+	cursor: pointer;
+	color:black;
 }
