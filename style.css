@@ -144,3 +144,18 @@ form label, form legend {
 	cursor: pointer;
 	color:black;
 }
+
+table{
+	margin: 50px 0 40px 
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+th, td {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
