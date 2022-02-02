@@ -159,3 +159,31 @@ th, td {
 	border: 1px solid #000000;
 	padding: 8px 15px;
 }
+
+/*Página de Home*/
+
+.banner{
+	width: 100%;
+}
+
+h2, h3{
+	margin: 0 0 2em;
+	clear: left;
+}
+
+.utensilios{
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;	
+}
+.sobre p {
+	margin: 0 0 1em;
+}
+
+.sobre strong{
+	font-weight: bold;
+}
+
+.sobre em {
+	font-style: italic;
+}
