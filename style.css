@@ -1,5 +1,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(white 40%, grey)
 }
 
 header{
@@ -180,6 +181,11 @@ h2, h3{
 	float: left;
 	margin: 0 20px 20px 0;	
 }
+
+.sobre{
+	padding: 3em 0;
+}
+
 .sobre p {
 	margin: 0 0 1em;
 }
@@ -198,6 +204,24 @@ h2, h3{
 
 .mapa p {
 	margin: 0 0 2em 0;
+}
+
+.beneficios{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens{
+	line-height: 1.5;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.imagem-beneficios{
+	width: 60%;
 }
 
 .video{
